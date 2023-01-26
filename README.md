@@ -7,7 +7,6 @@ An ASP.NET Core 6 Web API with authentication and authorization. This project us
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Project setup](#project-setup)
