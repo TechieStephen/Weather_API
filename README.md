@@ -1,6 +1,6 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution
+# Weather API - solution
 
-This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+An ASP.NET Core 6 Web API with authentication and authorization. This project uses Ntier Architecture.
 
 ## Table of contents
 
@@ -10,8 +10,6 @@ This is a solution to the [REST Countries API with color theme switcher challeng
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Project setup](#project-setup)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -21,63 +19,31 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 ### The challenge
 
-Users should be able to:
-
-- See all countries from the API on the homepage
-- Search for a country using an `input` field
-- Filter countries by region
-- Click on a country to see more detailed information on a separate page
-- Click through to the border countries on the detail page
-- Toggle the color scheme between light and dark mode *(optional)*
+Create a simple weather RESTful API using .NET6, your project should include authentication and authorization.
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca/hub/rest-countries-api-with-color-theme-switcher-pxxDBmKUq](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca/hub/rest-countries-api-with-color-theme-switcher-pxxDBmKUq)
-- Live Site URL: [https://os-countries.netlify.app/](https://os-countries.netlify.app/)
-
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Desktop-first workflow
-- [Vue](https://v3.vuejs.org/) - JS library
-- [Sass](https://sass-lang.com/documentation/syntax) 
+- .NET 6
+- ASP.NET Core
+- C#
 
-
-### Continued development
-
-- replace flex box with grid
 
 ## Project setup
 ```
-npm install
+- change the database server connection string in the appsetting.json file
+- update database: run 'update-database' in the package manager console.
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+- dotnet run or just use the play button
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 
 ## Author
 
