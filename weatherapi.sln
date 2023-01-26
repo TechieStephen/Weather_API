@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weatherapi.Entities", "weatherapi.Entities\weatherapi.Entities.csproj", "{55DBFFE9-03BF-456E-A956-F1116A3A1E94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weatherapi.Core", "weatherapi.Core\weatherapi.Core.csproj", "{C57CAE4F-CD9B-4FD2-BF8C-80C2F6899F28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weatherapi", "weatherapi\weatherapi.csproj", "{643FB447-3167-4F57-982C-E8E3EAB760A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55DBFFE9-03BF-456E-A956-F1116A3A1E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DBFFE9-03BF-456E-A956-F1116A3A1E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DBFFE9-03BF-456E-A956-F1116A3A1E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DBFFE9-03BF-456E-A956-F1116A3A1E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57CAE4F-CD9B-4FD2-BF8C-80C2F6899F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57CAE4F-CD9B-4FD2-BF8C-80C2F6899F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57CAE4F-CD9B-4FD2-BF8C-80C2F6899F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57CAE4F-CD9B-4FD2-BF8C-80C2F6899F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643FB447-3167-4F57-982C-E8E3EAB760A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643FB447-3167-4F57-982C-E8E3EAB760A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643FB447-3167-4F57-982C-E8E3EAB760A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643FB447-3167-4F57-982C-E8E3EAB760A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15939F42-5ECA-43F7-8291-4A1516FA43F5}
+	EndGlobalSection
+EndGlobal
