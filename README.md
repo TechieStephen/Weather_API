@@ -41,7 +41,7 @@ Create a simple weather RESTful API using .NET6, your project should include aut
 
 ### Compiles and hot-reloads for development
 ```
-- dotnet run or just use the play button
+- if you are using VS code run "dotnet run" or just use the play button if you are using visual studio
 ```
 
 ## Author
